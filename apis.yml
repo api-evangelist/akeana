@@ -1,8 +1,15 @@
 aid: akeana
 name: Akeana
-description: 'Akeana is a company surfaced as a portfolio company of kleiner-perkins, mayfield and added
-  to the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Akeana is a semiconductor IP company building high-performance RISC-V
+  processor system IP, with the stated mission of elevating RISC-V to world-class
+  performance levels. It licenses customizable processor cores across three families
+  (the ultra-low-power 100 Series for deeply embedded controllers, the 1000 Series
+  for high-performance edge AI and automotive compute, and the ultra-high-performance
+  5000 Series for data center, networking, and mobile application processors), plus
+  hardware accelerator IP, AMBA-compliant interconnect fabric IP (AXI, ACE, CHI),
+  and system IP (interrupt controllers, IOMMU, PCIe, UCIe). Backed by Kleiner Perkins
+  and Mayfield, Akeana partners with Samsung Foundry, Canonical, Innatera, Axiomise,
+  and proteanTecs. Headquartered in Santa Clara, California.'
 url: https://raw.githubusercontent.com/api-evangelist/akeana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,29 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.akeana.com/wp-content/uploads/2022/05/Logo-SVG_black.svg
 tags:
 - Company
 - Hardtech
+- Semiconductors
+- RISC-V
+- Processors
+- Silicon IP
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://akeana.com
+- type: Documentation
+  url: https://www.akeana.com/software-and-tools/
+- type: Support
+  url: https://www.akeana.com/support/
+- type: Blog
+  url: https://www.akeana.com/blog/
+- type: SignUp
+  url: https://www.akeana.com/register/
+- type: Login
+  url: https://www.akeana.com/login/
+- type: TermsOfService
+  url: https://www.akeana.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.akeana.com/privacy-policy/
+- type: DomainSecurity
+  url: security/akeana-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
